@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bladmher Suayt Mondina Jr. — Portfolio</title>
+  <meta name="description" content="Portfolio of Bladmher Suyat Mondina Jr. — Computer Science graduate (UAA). Projects, experience, and contact." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Ctext y='1em' font-size='96'%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">🎮</span>
+        <div class="brand__text">
+          <div class="brand__name">Bladmher Suyat Mondina Jr.</div>
+          <div class="brand__tag">Computer Science • Data/ML • Software Engineering</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav__cta">Contact</a>
+      </nav>
+    </div>
+    <div class="topbar__progress" aria-hidden="true"><span id="scrollbar"></span></div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="kicker">
+            <span class="dot" aria-hidden="true"></span>
+            <span class="kicker__text">Press Start — building reliable software & data systems</span>
+          </div>
+
+          <h1>Hey there! 👋</h1>
+          <p class="lede">
+            I’m <strong>Bladmher Suyat Mondina Jr.</strong>, a motivated Computer Science graduate from the
+            University of Alaska Anchorage with a strong foundation in backend + frontend development,
+            systems, and collaborative work.
+          </p>
+
+          <div class="hero__chips" role="list" aria-label="Highlights">
+            <span role="listitem">Python • SQL • C/C++</span>
+            <span role="listitem">Swift/Xcode</span>
+            <span role="listitem">Data Mining & ML</span>
+            <span role="listitem">Networking & Systems</span>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">See projects</a>
+            <a class="btn" href="Blad_Mondina_Resume.pdf" download>Download resume</a>
+            <a class="btn btn--ghost" href="https://github.com/BladmherMondina" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn--ghost" href="https://linkedin.com/in/bladmhermondina" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <p class="hero__note">
+            Use the quick links above to jump between sections — and try the “controller catch” mini-game at the bottom.
+          </p>
+        </div>
+
+        <aside class="hero__card" aria-label="Overview">
+          <div class="card card--glow">
+            <div class="card__header">
+              <div>
+                <div class="card__title">Overview</div>
+                <div class="card__subtitle">A quick snapshot</div>
+              </div>
+              <div class="badge" title="Theme">🎮</div>
+            </div>
+
+            <dl class="stats" id="stats">
+              <div class="stat">
+                <dt>Project count</dt>
+                <dd id="statProjects">—</dd>
+              </div>
+              <div class="stat">
+                <dt>Primary focus</dt>
+                <dd>Software + Data</dd>
+              </div>
+              <div class="stat">
+                <dt>Location</dt>
+                <dd>Anchorage, AK</dd>
+              </div>
+              <div class="stat">
+                <dt>Status</dt>
+                <dd><span class="status"><span class="status__dot" aria-hidden="true"></span>Open to opportunities</span></dd>
+              </div>
+            </dl>
+
+            <div class="card__footer">
+              <a class="link" href="#contact">Let’s connect →</a>
+              <span class="pill pill--mini">XP +1 for scrolling</span>
+            </div>
+          </div>
+
+          <div class="mascot" aria-hidden="true">
+            <svg viewBox="0 0 320 180" role="img" aria-label="A friendly game controller">
+              <defs>
+                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity=".22" />
+                </filter>
+              </defs>
+              <g filter="url(#shadow)">
+                <path class="ctrl-body"
+                      d="M82 86c-20 0-40 18-44 44-3 20 9 38 28 38 16 0 26-10 36-22 9-11 18-22 36-22h44c18 0 27 11 36 22 10 12 20 22 36 22 19 0 31-18 28-38-4-26-24-44-44-44-22 0-32 10-42 22-8 9-16 18-30 18H154c-14 0-22-9-30-18C114 96 104 86 82 86z"/>
+                <circle class="ctrl-pad" cx="128" cy="116" r="18"/>
+                <rect class="ctrl-pad" x="122" y="104" width="12" height="24" rx="6"/>
+                <rect class="ctrl-pad" x="116" y="110" width="24" height="12" rx="6"/>
+                <circle class="ctrl-btn" cx="220" cy="106" r="10"/>
+                <circle class="ctrl-btn2" cx="244" cy="122" r="10"/>
+                <circle class="ctrl-stick" cx="182" cy="122" r="14"/>
+                <circle class="ctrl-stick-top" cx="182" cy="122" r="6"/>
+                <path class="ctrl-glow"
+                      d="M96 98c12-10 28-10 40 2 8 8 12 16 18 22 6 6 12 10 22 10h-22c-14 0-22-9-30-18-10-12-20-22-42-22-8 0-16 2-22 6z"/>
+              </g>
+            </svg>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head">
+          <h2>Experience</h2>
+          <p>Hands-on work in operations, maintenance, and technical support.</p>
+        </div>
+
+        <article class="item">
+          <div class="item__meta">
+            <div class="item__title">Wastewater Operator-In-Training (Seasonal)</div>
+            <div class="item__sub">City of Unalaska • Unalaska, AK</div>
+          </div>
+          <div class="item__right">
+            <div class="pill">2023 – 2025</div>
+          </div>
+          <ul class="item__bullets">
+            <li>Supported construction, repair, and maintenance work for wastewater collection and treatment systems.</li>
+            <li>Assisted with replacement and upkeep tasks across city infrastructure.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projects</h2>
+          <p>Selected work across machine learning, data processing, and networks.</p>
+        </div>
+
+        <div class="grid" id="projectGrid">
+          <article class="card project" data-project>
+            <div class="project__top">
+              <div>
+                <h3>Shazam Query Prediction (ML)</h3>
+                <p class="muted">Predict time-varying Shazam query histograms from audio features (Billboard 2015 top 20).</p>
+              </div>
+              <div class="badge badge--soft">ML</div>
+            </div>
+
+            <ul class="tags" aria-label="Tech stack">
+              <li>Python</li>
+              <li>Jupyter</li>
+              <li>librosa</li>
+              <li>Transformer</li>
+              <li>XGBoost</li>
+              <li>LSTM</li>
+            </ul>
+
+            <p class="project__body">
+              Built preprocessing + feature extraction pipelines and trained multiple models (Transformer, XGBoost, LSTM) to
+              forecast engagement over song time. XGBoost performed best overall by correlation coefficient.
+            </p>
+
+            <div class="project__links">
+              <a class="link" href="https://github.com/rjmichaelii/CSCE-470-Shazam-Query-Capstone-Project" target="_blank" rel="noreferrer">Repo →</a>
+            </div>
+
+            <div class="project__when">09/2025 – 12/2025</div>
+          </article>
+
+          <article class="card project" data-project>
+            <div class="project__top">
+              <div>
+                <h3>LEO Inter-Satellite Links (ISL) Topologies</h3>
+                <p class="muted">Simulated Low Earth Orbit satellite networks with ISL topologies in Alaska.</p>
+              </div>
+              <div class="badge badge--soft">Networks</div>
+            </div>
+
+            <ul class="tags" aria-label="Tech stack">
+              <li>Python</li>
+              <li>Simulation</li>
+              <li>Visualization</li>
+              <li>GIF Outputs</li>
+            </ul>
+
+            <p class="project__body">
+              Tested constellation parameters and produced visual outputs (including animated GIFs) to communicate topology behavior.
+              Presented findings at an IEEE conference in Montreal, Canada.
+            </p>
+
+            <div class="project__links">
+              <a class="link" href="https://github.com/BladmherMondina/LEO.git" target="_blank" rel="noreferrer">Repo →</a>
+            </div>
+
+            <div class="project__when">09/2023 – 12/2023</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head">
+          <h2>Education</h2>
+          <p>University of Alaska Anchorage</p>
+        </div>
+
+        <article class="item">
+          <div class="item__meta">
+            <div class="item__title">B.S. Computer Science</div>
+            <div class="item__sub">Minor: Computer Systems Engineer & Mathematics • Anchorage, AK</div>
+          </div>
+          <div class="item__right">
+            <div class="pill">08/2021 – 12/2025</div>
+          </div>
+
+          <details class="details">
+            <summary>Relevant coursework</summary>
+            <div class="details__body">
+              <ul class="cols">
+                <li>Data Structures & Algorithms</li>
+                <li>Database Systems</li>
+                <li>Operating Systems</li>
+                <li>Computer Networks</li>
+                <li>Software Engineering</li>
+                <li>Computer Network & Security</li>
+                <li>Data Mining</li>
+                <li>Artificial Intelligence</li>
+                <li>Computer Machine & Vision</li>
+                <li>Probability & Statistics</li>
+                <li>Linear Algebra</li>
+                <li>Computer Architecture</li>
+              </ul>
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p>Tools and strengths I use most often.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Languages</h3>
+            <ul class="tags tags--big">
+              <li>Python</li><li>C++</li><li>C</li><li>SQL</li><li>Swift</li><li>Java</li><li>JavaScript</li><li>HTML/CSS</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Ways I work</h3>
+            <ul class="checklist">
+              <li>Group-oriented collaboration</li>
+              <li>Clear communication</li>
+              <li>Problem solving</li>
+              <li>Organized + detail-focused</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p>Want to chat about a role or a project? Send a quick message.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Quick links</h3>
+            <ul class="contact">
+              <li><span class="contact__k">Email</span> <a class="link" href="mailto:bladmhermondina@gmail.com">bladmhermondina@gmail.com</a></li>
+              <li><span class="contact__k">Phone</span> <a class="link" href="tel:+19073596049">(907) 359-6049</a></li>
+              <li><span class="contact__k">GitHub</span> <a class="link" href="https://github.com/BladmherMondina" target="_blank" rel="noreferrer">github.com/BladmherMondina</a></li>
+              <li><span class="contact__k">LinkedIn</span> <a class="link" href="https://linkedin.com/in/bladmhermondina" target="_blank" rel="noreferrer">linkedin.com/in/bladmhermondina</a></li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Message</h3>
+            <form id="contactForm" class="form">
+              <label>
+                <span>Name</span>
+                <input name="name" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="5" required placeholder="What are you working on?"></textarea>
+              </label>
+              <button class="btn btn--primary" type="submit">Copy email draft</button>
+              <p class="muted small" id="formHint">This form doesn’t send anything (no backend). It copies a pre-filled email link to your clipboard.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="game">
+      <div class="container">
+        <div class="section__head">
+          <h2>Controller catch mini-game</h2>
+          <p>Click the controller as it “spawns” around the arena. It speeds up as your score increases.</p>
+        </div>
+
+        <div class="game card card--glow">
+          <div class="game__hud">
+            <div class="pill">Score: <span id="score">0</span></div>
+            <button class="btn btn--ghost" id="reset" type="button">Reset</button>
+          </div>
+
+          <div class="game__field" id="field" aria-label="Controller game area">
+            <button class="controller" id="controller" aria-label="Catch the controller!" title="Catch me!">🎮</button>
+          </div>
+
+          <p class="muted small">Tip: Use Tab + Enter if you prefer keyboard controls.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="muted">© <span id="year"></span> Bladmher Mondina Jr.</div>
+        <div class="muted">Built as a single-page portfolio (HTML/CSS/JS).</div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
